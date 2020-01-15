@@ -41,13 +41,13 @@ void BalanzaInteligenteView::CalcularPeso()
 	txtResultadoPesar.invalidate();
 	txtResultadoSmall.invalidate();
 
-	porcentaje = (peso * 460)/(promedio);
+	porcentaje = ((peso * 200)/(promedio))+260;
 	widgetCircular.setArc(268, 268);
 	if (peso > (promedio + delta)) {
 		porcentaje = porcentaje - 50;
 		widgetCircularPainter.setColor(touchgfx::Color::getColorFrom24BitRGB(235, 55, 55));
 		TxtAlerta.setVisible(true);
-		Unicode::strncpy(TxtAlertaBuffer, "FALTANTE!", TXTALERTA_SIZE);
+		Unicode::strncpy(TxtAlertaBuffer, "EXCEDENTE!", TXTALERTA_SIZE);
 		TxtAlerta.invalidate();
 		alertaPerfil.setVisible(true);
 		alertaPerfil.invalidate();
