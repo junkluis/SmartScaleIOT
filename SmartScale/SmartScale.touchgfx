@@ -184,13 +184,13 @@
               {
                 "Components": [
                   {
-                    "RelativeFilename": "menuA.png",
+                    "RelativeFilename": "business.png",
                     "Alpha": 255,
                     "Name": "imgBalanza",
                     "X": 45,
                     "Y": 38,
-                    "Width": 150,
-                    "Height": 150,
+                    "Width": 128,
+                    "Height": 128,
                     "Type": "Image",
                     "Visible": true,
                     "Draggable": false,
@@ -282,12 +282,12 @@
               {
                 "Components": [
                   {
-                    "RelativeFilename": "menuB.png",
+                    "RelativeFilename": "box.png",
                     "Alpha": 255,
                     "Name": "imgPerfil",
                     "X": 45,
                     "Y": 38,
-                    "Width": 138,
+                    "Width": 128,
                     "Height": 128,
                     "Type": "Image",
                     "Visible": true,
@@ -403,12 +403,12 @@
               {
                 "Components": [
                   {
-                    "RelativeFilename": "menuE.png",
+                    "RelativeFilename": "faq.png",
                     "Alpha": 255,
                     "Name": "imgOut",
                     "X": 45,
                     "Y": 38,
-                    "Width": 150,
+                    "Width": 128,
                     "Height": 128,
                     "Type": "Image",
                     "Visible": true,
@@ -501,13 +501,13 @@
               {
                 "Components": [
                   {
-                    "RelativeFilename": "menuF.png",
+                    "RelativeFilename": "exit.png",
                     "Alpha": 255,
                     "Name": "imgOut_1",
                     "X": 45,
                     "Y": 38,
-                    "Width": 150,
-                    "Height": 150,
+                    "Width": 128,
+                    "Height": 128,
                     "Type": "Image",
                     "Visible": true,
                     "Draggable": false,
@@ -659,6 +659,19 @@
             "Action": {
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "Informacion",
+              "Type": "ActionGotoScreen"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "cerrarSesion_1",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "ScreenSaver",
               "Type": "ActionGotoScreen"
             }
           }

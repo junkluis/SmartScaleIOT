@@ -1072,6 +1072,11 @@
               <FilePath>../../generated/images/src/bottom_slide_menu_button.cpp</FilePath>
             </File>
             <File>
+              <FileName>box.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../generated/images/src/box.cpp</FilePath>
+            </File>
+            <File>
               <FileName>btn-central-push.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../../generated/images/src/btn-central-push.cpp</FilePath>
@@ -1100,6 +1105,11 @@
               <FileName>btn.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../../generated/images/src/btn.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>business.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../generated/images/src/business.cpp</FilePath>
             </File>
             <File>
               <FileName>CachedFont.cpp</FileName>
@@ -1140,6 +1150,16 @@
               <FileName>erase.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../../generated/images/src/erase.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>exit.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../generated/images/src/exit.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>faq.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../../generated/images/src/faq.cpp</FilePath>
             </File>
             <File>
               <FileName>Font_FRADM_TTF_18_4bpp_0.cpp</FileName>

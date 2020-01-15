@@ -1237,6 +1237,9 @@
           <name>$PROJ_DIR$\..\..\generated\images\src\bottom_slide_menu_button.cpp</name>
         </file>
         <file>
+          <name>$PROJ_DIR$\..\..\generated\images\src\box.cpp</name>
+        </file>
+        <file>
           <name>$PROJ_DIR$\..\..\generated\images\src\btn-central-push.cpp</name>
         </file>
         <file>
@@ -1253,6 +1256,9 @@
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\generated\images\src\btn.cpp</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\..\generated\images\src\business.cpp</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\generated\images\src\cont1.cpp</name>
@@ -1274,6 +1280,12 @@
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\generated\images\src\erase.cpp</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\..\generated\images\src\exit.cpp</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\..\generated\images\src\faq.cpp</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\generated\images\src\home.cpp</name>

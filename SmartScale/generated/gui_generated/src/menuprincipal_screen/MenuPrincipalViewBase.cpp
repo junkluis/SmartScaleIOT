@@ -18,7 +18,7 @@ MenuPrincipalViewBase::MenuPrincipalViewBase() :
     Balanza.setHeight(226);
 
     imgBalanza.setXY(45, 38);
-    imgBalanza.setBitmap(touchgfx::Bitmap(BITMAP_MENUA_ID));
+    imgBalanza.setBitmap(touchgfx::Bitmap(BITMAP_BUSINESS_ID));
     Balanza.add(imgBalanza);
 
     txt_balanzaInteligente.setXY(240, 38);
@@ -44,7 +44,7 @@ MenuPrincipalViewBase::MenuPrincipalViewBase() :
     Perfil.setHeight(226);
 
     imgPerfil.setXY(45, 38);
-    imgPerfil.setBitmap(touchgfx::Bitmap(BITMAP_MENUB_ID));
+    imgPerfil.setBitmap(touchgfx::Bitmap(BITMAP_BOX_ID));
     Perfil.add(imgPerfil);
 
     txt_perfiles.setXY(240, 38);
@@ -76,7 +76,7 @@ MenuPrincipalViewBase::MenuPrincipalViewBase() :
     CerrarSesion.setHeight(226);
 
     imgOut.setXY(45, 38);
-    imgOut.setBitmap(touchgfx::Bitmap(BITMAP_MENUE_ID));
+    imgOut.setBitmap(touchgfx::Bitmap(BITMAP_FAQ_ID));
     CerrarSesion.add(imgOut);
 
     Empezar.setXY(240, 93);
@@ -102,7 +102,7 @@ MenuPrincipalViewBase::MenuPrincipalViewBase() :
     CerrarSesion_1.setHeight(226);
 
     imgOut_1.setXY(45, 38);
-    imgOut_1.setBitmap(touchgfx::Bitmap(BITMAP_MENUF_ID));
+    imgOut_1.setBitmap(touchgfx::Bitmap(BITMAP_EXIT_ID));
     CerrarSesion_1.add(imgOut_1);
 
     cerrarSesion_1.setXY(240, 83);
@@ -110,6 +110,7 @@ MenuPrincipalViewBase::MenuPrincipalViewBase() :
     cerrarSesion_1.setLabelText(touchgfx::TypedText(T_SINGLEUSEID122));
     cerrarSesion_1.setLabelColor(touchgfx::Color::getColorFrom24BitRGB(255, 255, 255));
     cerrarSesion_1.setLabelColorPressed(touchgfx::Color::getColorFrom24BitRGB(255, 255, 255));
+    cerrarSesion_1.setAction(buttonCallback);
     CerrarSesion_1.add(cerrarSesion_1);
 
     image1_3_1.setXY(186, 198);
@@ -158,5 +159,12 @@ void MenuPrincipalViewBase::buttonCallbackHandler(const touchgfx::AbstractButton
         //When Empezar clicked change screen to Informacion
         //Go to Informacion with no screen transition
         application().gotoInformacionScreenNoTransition();
+    }
+    else if (&src == &cerrarSesion_1)
+    {
+        //Interaction3
+        //When cerrarSesion_1 clicked change screen to ScreenSaver
+        //Go to ScreenSaver with no screen transition
+        application().gotoScreenSaverScreenNoTransition();
     }
 }
